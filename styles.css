@@ -1,3 +1,25 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    font-size: 75px;
+    padding: 0 5px;
+}
+
+input {
+    height: 30px;
+}
