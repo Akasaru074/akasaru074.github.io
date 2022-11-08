@@ -7,8 +7,8 @@ const TRIES = 3;
 
 const words = [
     {text: "квас", indexes:[0]},
-    {text: "дорога", indexes:[0, 4]}
-    {text: "улица", indexes: [2]},
+    {text: "дорога", indexes:[0, 4]},
+    {text: "улица", indexes: [2]}
 ];
 
 let word = words[Math.floor(Math.random() * words.length)];
