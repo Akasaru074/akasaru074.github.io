@@ -13,7 +13,11 @@ const words = [
     {text: "корабль", indexes:[0, 4, 6]},
     {text: "счастье", indexes:[2, 5, 6]},
     {text: "солнце", indexes:[4, 5]},
-    {text: "ночь", indexes:[2]}
+    {text: "ночь", indexes:[2]},
+    {text: "тарелка", indexes:[1,3,5]},
+    {text: "машина", indexes:[0,2]},
+    {text: "кровать", indexes:[0,2,6]},
+    {text: "анатомия", indexes:[1,3,7]}
 ];
 
 let word = words[Math.floor(Math.random() * words.length)];
@@ -39,7 +43,7 @@ button.addEventListener("click", ()=>{
             word.indexes.push(i);
             if(word.indexes.length == word.text.length) {
                 const el = document.createElement("h1");
-                el.textContent = "Ты выйграл!";
+                el.textContent = "Ура, победа!";
                 document.body.textContent = "";
                 document.body.appendChild(el);
                 return;
