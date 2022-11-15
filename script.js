@@ -22,7 +22,10 @@ const words = [
     {text: "хирург", indexes:[0, 2, 3]},
     {text: "терпение", indexes:[1, 3, 5]},
     {text: "вафли", indexes:[0, 2]},
-    {text: "чайник", indexes:[0, 2, 3]}
+    {text: "чайник", indexes:[0, 2, 3]},
+    {text: "пельмени", indexes:[1, 3]},
+    {text: "музыка", indexes:[0, 3]},
+    {text: "тетрадь", indexes:[1, 3]}
 ];
 
 let word = words[Math.floor(Math.random() * words.length)];
