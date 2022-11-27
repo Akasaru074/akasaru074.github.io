@@ -25,7 +25,19 @@ const words = [
     {text: "чайник", indexes:[0, 2, 3]},
     {text: "пельмени", indexes:[1, 3]},
     {text: "музыка", indexes:[0, 3]},
-    {text: "тетрадь", indexes:[1, 3]}
+    {text: "тетрадь", indexes:[1, 3]},
+    {text: "макароны", indexes:[0, 2, 6]},
+    {text: "пакет", indexes:[1, 4]},
+    {text: "математика", indexes:[0, 2, 5]},
+    {text: "кольцо", indexes:[1, 3]},
+    {text: "сковорода", indexes:[2, 4, 5]},
+    {text: "бабочка", indexes:[0, 5]},
+    {text: "надежда", indexes:[1, 3]},
+    {text: "баня", indexes:[1]},
+    {text: "капибара", indexes:[0, 4, 5]},
+    {text: "алгоритм", indexes:[1, 5]},
+    {text: "фокусник", indexes:[0, 3]},
+    {text: "кружка", indexes:[1, 3]}
 ];
 
 let word = words[Math.floor(Math.random() * words.length)];
